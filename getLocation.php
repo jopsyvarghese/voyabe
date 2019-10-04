@@ -13,7 +13,7 @@ session_start();
         var request = new XMLHttpRequest();
 
         var method = 'GET';
-        var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&sensor=true&key=AIzaSyC0Si2jxLMlb-onlE9BMpctY_uo8tYX_f0';
+        var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&sensor=true&key=MY_KEY';
         var async = true;
 
         request.open(method, url, async);
